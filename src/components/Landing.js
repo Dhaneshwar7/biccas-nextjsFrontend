@@ -1,18 +1,18 @@
 "use client";
 import Image from "next/image";
-import headingh1 from "../../public/images/landingh1.svg";
-import mainpic from "../../public/images/landingleftmainpic.png";
-import landingComment from "../../public/images/landingcomment.svg";
-import landingCredit from "../../public/images/landingcredit.svg";
-import landingDatabase from "../../public/images/landingdatabase.svg";
-import landingIncome from "../../public/images/landingincome.svg";
-import landingRight from "../../public/images/landingright.svg";
-import landingAmount from "../../public/images/landingamount.svg";
+import headingh1 from "../../public/images/landingPage/landingh1.svg";
+import mainpic from "../../public/images/landingPage/landingleftmainpic.png";
+import landingComment from "../../public/images/landingPage/landingcomment.svg";
+import landingCredit from "../../public/images/landingPage/landingcredit.svg";
+import landingDatabase from "../../public/images/landingPage/landingdatabase.svg";
+import landingIncome from "../../public/images/landingPage/landingincome.svg";
+import landingRight from "../../public/images/landingPage/landingright.svg";
+import landingAmount from "../../public/images/landingPage/landingamount.svg";
 
 const LandingPage = () => {
   return (
     <>
-      <div className="flex h-fit w-screen  px-6 py-24 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-6 md:py-16 md:max-lg:px-16 max-sm:bg-orange-400 lg:max-xl:px-20 xl:px-28">
+      <div className="flex h-fit w-screen  px-6 py-24 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-6 md:py-16 md:max-lg:px-16  lg:max-xl:px-20 xl:px-28">
         <div className="flex h-[60vh] max-h-[60vh] w-2/4 flex-col items-start justify-between overflow-hidden pr-7 max-sm:max-h-fit  max-sm:w-full max-sm:pr-0 md:max-lg:max-h-[55vh]">
           <div className="">
             <h1 className="text-[80px] font-bold leading-none max-sm:text-5xl md:max-lg:text-5xl lg:max-xl:text-6xl">
