@@ -1,0 +1,20 @@
+.main {
+  min-height: 50vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background: rgb(236, 247, 237);
+  background: linear-gradient(
+    148deg,
+    rgb(242, 251, 243) 0%,
+    rgb(236, 248, 235) 35%,
+    rgb(230, 235, 226) 70%,
+    rgba(249, 254, 255, 1) 100%
+  );
+  font-family: var(roboto_mono);
+  /* overflow: hidden; */
+}
+
+.frobo {
+  font-family: var(roboto_mono);
+}
