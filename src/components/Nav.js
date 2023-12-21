@@ -6,7 +6,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <>
-      <div className="flex w-screen items-center justify-between max-sm:py-5 px-6 py-3 sm:px-12 md:px-20 xl:px-28 ">
+      <div className="flex w-screen items-center justify-between max-sm:py-5 px-6 py-3 sm:px-12 md:px-20 xl:px-28">
         <div>
           <h1 style={inter.style} className="w-fit text-4xl font-semibold">
             Biccas
