@@ -28,10 +28,10 @@ const LandingThird = () => {
               height={360}
               priority
               alt="landingThirdImages"
-              className="h-96 w-auto max-sm:h-72 md:max-lg:h-72"
+              className="h-96 w-auto max-sm:h-64 md:max-lg:h-72"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
-            <h2 className="py-3 text-3xl font-semibold max-sm:py-1 md:max-lg:py-2 md:max-lg:text-2xl">
+            <h2 className="py-3 text-3xl max-sm:text-2xl font-semibold max-sm:py-1 md:max-lg:py-2 md:max-lg:text-2xl">
               Collboration Teams{" "}
             </h2>
             <p className="w-4/5 text-lg max-sm:text-center md:max-lg:text-base">
@@ -45,10 +45,10 @@ const LandingThird = () => {
               height={360}
               priority
               alt="landingThirdImages"
-              className="h-96 w-auto max-sm:h-72 md:max-lg:h-72"
+              className="h-96 w-auto max-sm:h-64 md:max-lg:h-72"
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
-            <h2 className="py-3 text-3xl font-semibold max-sm:py-1 md:max-lg:py-2 md:max-lg:text-2xl">
+            <h2 className="py-3 text-3xl font-semibold max-sm:py-1 max-sm:text-2xl md:max-lg:py-2 md:max-lg:text-2xl">
               Cloud Storage
             </h2>
             <p className="w-4/5 text-lg max-sm:text-center md:max-xl:w-full  md:max-lg:text-base">
@@ -63,10 +63,10 @@ const LandingThird = () => {
               height={360}
               priority
               alt="landingThirdImages"
-              className="h-96 w-auto max-sm:h-72 md:max-lg:h-72"
+              className="h-96 w-auto max-sm:h-64 md:max-lg:h-72 "
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
-            <h2 className="py-3 text-3xl font-semibold max-sm:py-1 md:max-lg:py-2 md:max-lg:text-2xl">
+            <h2 className="py-3 text-3xl max-sm:text-2xl font-semibold max-sm:py-1 md:max-lg:py-2 md:max-lg:text-2xl">
               Daily Analytics
             </h2>
             <p className="w-4/5 text-lg max-sm:text-center md:max-lg:w-full md:max-lg:text-base">

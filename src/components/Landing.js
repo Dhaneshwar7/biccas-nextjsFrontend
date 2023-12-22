@@ -36,8 +36,8 @@ const LandingPage = () => {
             <button className=" rounded-full bg-lime-700 px-5 py-3 text-base text-white hover:bg-lime-200 hover:text-gray-800 max-sm:px-4 max-sm:py-2 md:max-lg:px-3 md:max-lg:py-2">
               Try free Trial
             </button>
-            <button className="ml-10 rounded-full px-5 py-3 text-center text-base text-black hover:bg-gray-200 max-sm:px-3 max-sm:py-1 md:max-lg:px-3 md:max-lg:py-2">
-              <i className="ri-play-line mr-2 rounded-full p-[2px] text-end text-xl outline max-sm:text-xs md:max-lg:p-0 md:max-lg:text-sm"></i>
+            <button className="ml-10 rounded-full px-5 py-3 text-center  text-base  text-black max-sm:hover:bg-yellow-400 hover:bg-gray-200 max-sm:bg-green-300 max-sm:px-4 max-sm:py-2 md:max-lg:px-3 md:max-lg:py-2">
+              <i className="ri-play-line mr-2 rounded-full p-[2px] max-sm:p-1 text-end  text-xl outline max-sm:ml-2 max-sm:text-xs max-sm:outline-1 md:max-lg:p-0 md:max-lg:text-sm"></i>
               View Demo
             </button>
           </div>
@@ -111,10 +111,10 @@ const LandingPage = () => {
         </div>
       </div>
       <div className="flex h-fit w-screen flex-col gap-7  px-6 py-24 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-12 md:py-16  md:max-lg:px-16 lg:max-xl:px-20 xl:px-28">
-        <h1 className="md:max-lg:text-4xl text-center max-sm:text-3xl text-5xl font-bold">
+        <h1 className="text-center text-5xl font-bold max-sm:text-3xl md:max-lg:text-4xl">
           More than 25,000 teams use Collabs
         </h1>
-        <div className="flex flex-wrap max-sm:flex-1 max-sm:gap-3 gap-8  items-center justify-evenly">
+        <div className="flex flex-wrap items-center justify-evenly gap-8  max-sm:flex-1 max-sm:gap-3">
           <span className="flex gap-2 text-[#A6A6A6]">
             <svg
               width="34"
@@ -128,7 +128,7 @@ const LandingPage = () => {
               <rect x="24" y="14" width="10" height="18" fill="#A6A6A6" />
               <rect y="14" width="10" height="18" fill="#A6A6A6" />
             </svg>
-            <p className="text-3xl max-sm:text-2xl font-semibold">Unsplash</p>
+            <p className="text-3xl font-semibold max-sm:text-2xl">Unsplash</p>
           </span>
           <span className="flex gap-2 text-[#A6A6A6]">
             <svg
@@ -158,7 +158,7 @@ const LandingPage = () => {
               <path d="M8 7L0 0V28L8 35V7Z" fill="#A6A6A6" />
             </svg>
 
-            <p className="text-3xl max-sm:text-2xl font-semibold">Notion</p>
+            <p className="text-3xl font-semibold max-sm:text-2xl">Notion</p>
           </span>
           <span className="flex gap-2 text-[#A6A6A6]">
             <svg
@@ -182,7 +182,7 @@ const LandingPage = () => {
               <rect x="24" y="7" width="2" height="12" fill="white" />
             </svg>
 
-            <p className="text-3xl max-sm:text-2xl font-semibold">INTERCOM</p>
+            <p className="text-3xl font-semibold max-sm:text-2xl">INTERCOM</p>
           </span>
           <span className="flex gap-2 text-[#A6A6A6]">
             <svg
@@ -199,7 +199,7 @@ const LandingPage = () => {
                 fill="#A6A6A6"
               />
             </svg>
-            <p className="text-3xl max-sm:text-2xl font-semibold">descript</p>
+            <p className="text-3xl font-semibold max-sm:text-2xl">descript</p>
           </span>
           <span className="flex gap-2 text-[#A6A6A6]">
             <svg
@@ -215,14 +215,10 @@ const LandingPage = () => {
                 stroke="white"
                 strokeWidth="2"
               />
-              <path
-                d="M17 17L21 15L23.5 18.5"
-                stroke="white"
-                strokeWidth="2"
-              />
+              <path d="M17 17L21 15L23.5 18.5" stroke="white" strokeWidth="2" />
             </svg>
 
-            <p className="text-3xl max-sm:text-2xl font-semibold">Grammerly</p>
+            <p className="text-3xl font-semibold max-sm:text-2xl">Grammerly</p>
           </span>
         </div>
       </div>
