@@ -3,19 +3,19 @@ import React from "react";
 const LandingTwo = () => {
   return (
     <div className="flex h-fit w-screen flex-col items-center justify-center gap-7 bg-[#ecebf0ca]  px-6 py-12 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-12 md:py-12  md:max-lg:px-16 lg:max-xl:px-20 xl:px-28">
-      <div className="grid max-sm:h-fit max-sm:w-fit h-fit w-full grid-cols-2 grid-rows-2 gap-4 max-sm:grid-cols-1  max-sm:grid-rows-1 max-sm:gap-8">
-        <div className="col-span-1 flex flex-col row-span-1 max-sm:row-span-1 h-full w-full max-sm:h-fit max-sm:w-fit">
-          <h1 className="pr-2 text-5xl font-semibold leading-none max-sm:text-center max-sm:text-2xl">
+      <div className="grid h-fit w-full grid-cols-2 md:max-lg:grid-rows-none grid-rows-2 gap-4 max-sm:h-fit max-sm:w-fit max-sm:grid-cols-1 max-sm:grid-rows-1  max-sm:gap-8 md:max-lg:h-fit">
+        <div className="col-span-1 row-span-1 flex h-full w-full flex-col max-sm:row-span-1 md:max-lg:gap-2 max-sm:h-fit max-sm:w-fit">
+          <h1 className="pr-2 text-5xl font-semibold leading-none max-sm:text-center max-sm:text-2xl md:max-lg:text-3xl">
             How we support our pratner all over the world
           </h1>
-          <p className=" py-4 text-base max-sm:text-center">
+          <p className="py-4 text-base max-sm:text-center">
             SaaS become a common delivery model for many business application,
             including office software, messaging software, payroll processing
             software, DBMS software, management software
           </p>
         </div>
-        <div className="col-span-1 row-span-2  max-sm:row-span-1 h-full max-sm:h-fit w-full max-sm:pr-0  pr-8">
-          <div className="flex flex-col gap-8 max-sm:gap-6">
+        <div className="col-span-1 row-span-2 h-full w-full pr-8 max-sm:row-span-1 max-sm:h-fit max-sm:pr-0  md:max-lg:h-fit">
+          <div className="flex h-full flex-col items-end justify-around gap-8  max-sm:gap-6 md:max-lg:justify-start md:max-lg:gap-3">
             <div className="flex gap-3">
               <span>
                 <svg
@@ -46,7 +46,7 @@ const LandingTwo = () => {
                       filterUnits="userSpaceOnUse"
                       colorInterpolationFilters="sRGB"
                     >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feFlood floodOpacity="0" result="BackgroundImageFix" />
                       <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"
@@ -76,10 +76,10 @@ const LandingTwo = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="mb-2 text-3xl font-semibold max-sm:text-2xl">
+                <h1 className="mb-2 text-3xl font-semibold max-sm:text-2xl md:max-lg:text-2xl">
                   Publishing
                 </h1>
-                <p className="text-xl text-zinc-600 max-sm:text-sm">
+                <p className="text-xl text-zinc-600 max-sm:text-sm md:max-lg:text-base">
                   Plan, collaborate, and publishing your contetn that drivees
                   meaningful engagement and growth for your barnd
                 </p>
@@ -122,7 +122,7 @@ const LandingTwo = () => {
                       filterUnits="userSpaceOnUse"
                       colorInterpolationFilters="sRGB"
                     >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feFlood floodOpacity="0" result="BackgroundImageFix" />
                       <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"
@@ -152,16 +152,17 @@ const LandingTwo = () => {
                 </svg>
               </span>
               <div>
-                <h1 className="mb-2 text-3xl font-semibold max-sm:text-2xl">
+                <h1 className="mb-2 text-3xl font-semibold max-sm:text-2xl md:max-lg:text-2xl">
                   Analytics
                 </h1>
-                <p className="text-xl text-zinc-600 max-sm:text-sm">
+                <p className="text-xl text-zinc-600 max-sm:text-sm md:max-lg:text-base">
                   Analyze your performance and create goegeous report
                 </p>
               </div>
             </div>
             <div className="flex gap-3">
-              <svg className="max-sm:ml-5"
+              <svg
+                className="ml-0 max-sm:ml-5 max-sm:h-full "
                 width="78"
                 height="78"
                 viewBox="0 0 78 78"
@@ -188,7 +189,7 @@ const LandingTwo = () => {
                     filterUnits="userSpaceOnUse"
                     colorInterpolationFilters="sRGB"
                   >
-                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                     <feColorMatrix
                       in="SourceAlpha"
                       type="matrix"
@@ -217,17 +218,17 @@ const LandingTwo = () => {
                 </defs>
               </svg>
               <div>
-                <h1 className="mb-2 text-3xl font-semibold max-sm:text-2xl">
+                <h1 className="mb-2 text-3xl font-semibold max-sm:text-2xl md:max-lg:text-2xl">
                   Engagement
                 </h1>
-                <p className="text-xl text-zinc-600 max-sm:text-sm">
+                <p className="text-xl text-zinc-600 max-sm:text-sm md:max-lg:text-base">
                   Quiuckly navigate you anda engage with your adience
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-span-1 flex max-sm:h-fit max-sm:w-fit h-full w-full gap-8">
+        <div className="col-span-1 flex h-full w-full gap-8 max-sm:h-fit max-sm:w-fit">
           <div className="h-fit w-fit">
             <span>
               <svg
