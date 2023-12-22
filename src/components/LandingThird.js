@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import firstImg from "../../public/images/LandingThird/Cloud.png";
 import secondImg from "../../public/images/LandingThird/Collab.png";
-import thirdImg from "../../public/images/LandingThird/dailyanalysis.png";
+import thirdImg from "../../public/images/LandingThird/Daily.png";
 
 const LandingThird = () => {
   return (
