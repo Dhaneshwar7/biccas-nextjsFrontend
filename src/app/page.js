@@ -6,6 +6,7 @@ import LandingPage from "@/components/Landing";
 import LandingTwo from "@/components/LandingTwo";
 import LandingThird from "@/components/LandingThird";
 import LandingFour from "@/components/LandingFour";
+import LandingFive from "@/components/LandingFive";
 
 const Page = () => {
   return (
@@ -15,6 +16,7 @@ const Page = () => {
       <LandingTwo />
       <LandingThird />
       <LandingFour />
+      <LandingFive />
     </main>
   );
 };

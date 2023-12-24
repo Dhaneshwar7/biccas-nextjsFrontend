@@ -75,7 +75,7 @@ const LandingFour = () => {
               height={360}
               priority
               alt="landingPageImages"
-              className="absolute -left-16 top-72 h-10 w-auto max-sm:-left-12 max-sm:top-36 lg:max-xl:h-12"
+              className="absolute -left-16 top-72 h-12 w-auto max-sm:-left-12 max-sm:top-36 lg:max-xl:h-12"
               src={landingFourSmallPic}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
