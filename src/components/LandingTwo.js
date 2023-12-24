@@ -2,7 +2,7 @@ import React from "react";
 
 const LandingTwo = () => {
   return (
-    <div className="flex h-fit w-screen flex-col items-center justify-center gap-7 bg-[#ecebf0ca]  px-6 py-12 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-12 md:py-12  md:max-lg:px-16 lg:max-xl:px-20 xl:px-28">
+    <div className="landingtwo flex h-fit w-screen flex-col items-center justify-center gap-7 bg-[#ecebf0ca]  px-6 py-12 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-12 md:py-12  md:max-lg:px-16 lg:max-xl:px-20 xl:px-28">
       <div className="grid h-fit w-full grid-cols-2 md:max-lg:grid-rows-none grid-rows-2 gap-4 max-sm:h-fit max-sm:w-fit max-sm:grid-cols-1 max-sm:grid-rows-1  max-sm:gap-8 md:max-lg:h-fit">
         <div className="col-span-1 row-span-1 flex h-full w-full flex-col max-sm:row-span-1 md:max-lg:gap-2 max-sm:h-fit max-sm:w-fit">
           <h1 className="pr-2 text-5xl font-semibold leading-none max-sm:text-center max-sm:text-2xl md:max-lg:text-3xl">

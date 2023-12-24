@@ -6,7 +6,7 @@ import thirdImg from "../../public/images/LandingThird/Daily.png";
 
 const LandingThird = () => {
   return (
-    <div className="flex h-fit w-screen flex-col max-sm:pb-2 items-center justify-center gap-7  px-6 py-12 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-12 md:py-20  md:max-lg:px-16 lg:max-xl:px-20 xl:px-28">
+    <div className="landingthird flex h-fit w-screen flex-col max-sm:pb-2  items-center justify-center gap-7  px-6 py-10 max-sm:flex max-sm:flex-col max-sm:px-6 max-sm:py-12 md:py-20  md:max-lg:px-16 lg:max-xl:px-20 xl:px-28">
       <div className="grid h-fit w-full  max-sm:h-fit max-sm:w-fit">
         <div className="flex w-full items-center justify-between max-sm:flex-col">
           <h1 className="w-1/3 text-5xl font-semibold max-sm:w-full max-sm:text-center max-sm:text-4xl md:max-lg:text-4xl">
@@ -20,7 +20,7 @@ const LandingThird = () => {
             Get Started
           </button>
         </div>
-        <div className="flex w-full items-center justify-between py-10 max-sm:flex-col">
+        <div className="flex w-full items-center justify-between pt-10 max-sm:flex-col">
           <div className="flex flex-col items-start justify-start max-sm:mb-8 max-sm:w-full max-sm:items-center max-sm:justify-center md:max-xl:w-[30%] xl:max-2xl:w-1/3">
             <Image
               src={firstImg}
