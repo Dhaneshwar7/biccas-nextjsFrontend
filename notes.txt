@@ -1,1 +1,3 @@
 Dynamic imports in NextJs
+
+      <Spline scene="https://prod.spline.design/KHQyCfCsloxJsJuE/scene.splinecode" />
