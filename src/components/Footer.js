@@ -62,6 +62,7 @@ const Footer = () => {
                 src={foot1}
                 priority
                 width={340}
+                placeholder="blur"
                 height={340}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               ></Image>
@@ -72,6 +73,7 @@ const Footer = () => {
                 src={foot2}
                 priority
                 width={340}
+                placeholder="blur"
                 height={340}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               ></Image>
@@ -82,6 +84,7 @@ const Footer = () => {
                 src={foot3}
                 priority
                 width={340}
+                placeholder="blur"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 height={340}
               ></Image>
@@ -92,6 +95,7 @@ const Footer = () => {
                 src={foot4}
                 priority
                 width={340}
+                placeholder="blur"
                 height={340}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               ></Image>
@@ -185,7 +189,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex  max-md:text-center max-md:gap-3 justify-between text-zinc-300 max-md:flex-col">
+      <div className="flex  justify-between text-zinc-300 max-md:flex-col max-md:gap-3 max-md:text-center">
         <p className="text-lg max-md:text-base">
           © 2022 Biccas Inc. Copyright and rights reserved
         </p>

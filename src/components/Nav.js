@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect } from "react";
 import { inter, roboto_mono } from "../app/font";
 import Link from "next/link";
 
