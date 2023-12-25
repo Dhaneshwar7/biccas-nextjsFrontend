@@ -7,6 +7,7 @@ import LandingTwo from "@/components/LandingTwo";
 import LandingThird from "@/components/LandingThird";
 import LandingFour from "@/components/LandingFour";
 import LandingFive from "@/components/LandingFive";
+import Footer from "@/components/Footer";
 
 const Page = () => {
   return (
@@ -17,6 +18,7 @@ const Page = () => {
       <LandingThird />
       <LandingFour />
       <LandingFive />
+      <Footer/>
     </main>
   );
 };

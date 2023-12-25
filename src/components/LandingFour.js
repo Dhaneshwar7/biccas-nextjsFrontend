@@ -66,7 +66,7 @@ const LandingFour = () => {
               height={400}
               priority
               alt="landingPageImages"
-              className=" absolute -left-28 top-6 h-16 w-auto max-sm:-left-14 max-sm:h-12 md:max-lg:-left-12 md:max-lg:h-14  lg:max-xl:-left-24 lg:max-xl:h-14"
+              className=" absolute -left-28 top-6 h-16 w-auto max-sm:-left-12 max-sm:h-10 md:max-lg:-left-12 md:max-lg:h-14  lg:max-xl:-left-24 lg:max-xl:h-14"
               src={landingFourProifle}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
@@ -84,7 +84,7 @@ const LandingFour = () => {
               height={360}
               priority
               alt="landingPageImages"
-              className="absolute -left-24 bottom-0 h-16 w-auto max-sm:-left-12 max-sm:h-12  md:max-lg:-left-16 md:max-lg:h-10 lg:max-xl:h-12"
+              className="absolute -left-24 bottom-0 h-16 w-auto max-sm:-left-12 max-sm:h-10  md:max-lg:-left-16 md:max-lg:h-10 lg:max-xl:h-12"
               src={landingFourMoney}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
@@ -94,7 +94,7 @@ const LandingFour = () => {
               height={400}
               priority
               alt="landingPageImages"
-              className="absolute -right-20 top-24 h-16 w-auto max-sm:h-12 lg:max-xl:h-14"
+              className="absolute -right-20 top-24 h-16 w-auto max-sm:h-12 lg:max-xl:h-14 max-sm:-right-12 max-sm:top-16"
               src={landingFourIncome}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             ></Image>
