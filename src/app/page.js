@@ -12,6 +12,7 @@ import Footer from "@/components/Footer";
 const Page = () => {
   return (
     <main className={styles.main}>
+      <Nav></Nav>
       <LandingPage />
       <LandingTwo />
       <LandingThird />
